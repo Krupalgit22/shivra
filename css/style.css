@@ -2331,7 +2331,7 @@ ul.ct-list li:before {
 
 .header.header-2 .header-nav-wrapper.header-sticky.scroll-on .navbar .navbar-nav>li a.nav-link {
 	padding: 22px 18px ;
-	font-size: 20px;
+	font-size: 16px !important;
 }
 
 @media (max-width:1199.98px) {
@@ -2555,7 +2555,8 @@ ul.ct-list li:before {
 	-moz-transition: all .4s ease;
 	-ms-transition: all .4s ease;
 	-o-transition: all .4s ease;
-	transition: all .4s ease
+	transition: all .4s ease;
+	font-size:16px;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
@@ -2570,7 +2571,8 @@ ul.ct-list li:before {
 	-moz-transition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out
+	transition: all .3s ease-in-out;
+	font-size:16px;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
